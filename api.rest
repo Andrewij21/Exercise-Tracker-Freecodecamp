@@ -1,0 +1,20 @@
+@BASE_URL = http://localhost:3000/api/users
+
+###
+POST {{BASE_URL}}/65214fae443cb3e744dd7c4a/exercises
+content-type: application/json
+
+{
+    "date":"2020-12-12",
+    "duration":60,
+    "description":"lorem something"
+}
+###
+GET {{BASE_URL}}
+content-type: application/json
+
+{
+    "date":"2020-12-12",
+    "duration":60,
+    "description":"lorem something"
+}
